@@ -1,7 +1,4 @@
-/*
-  Reset básico para garantir que todos os elementos comecem sem margens e paddings,
-  e que o box-sizing seja border-box (inclui borda e padding no tamanho total).
-*/
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -50,7 +47,7 @@ body {
   Espaçamento superior e inferior para o logo.
 */
 .logo {
-  margin: 3rem 0 2rem;
+  margin: 2rem 0 2rem;
 }
 
 /*
