@@ -42,9 +42,17 @@ form.onsubmit = (event) => {
         amount: amount.value, // Obtém o valor da despesa já formatado
         created_at: new Date(), // Registra a data e hora da criação da despesa
     }
+    // Chama a função para adicionar o ítem na lista de despesas
+    expenseAdd(newExpense)
+}
 
-    // Exibe o objeto da nova despesa no console para conferência
-    console.log(newExpense)
+function expenseAdd(newExpense) {
+    try {
+        
+    } catch (error) {
+        alert("Não foi possível adicionar a lista de despesas.")
+        console.log(error)
+    }
 }
 
 
